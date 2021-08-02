@@ -6,12 +6,15 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "postinstall": "yarn build",
+    "start": "node server.js"
   },
   "dependencies": {
     "axios": "^0.21.1",
     "balm-ui": "^9.31.4",
     "core-js": "^2.6.10",
+    "express": "^4.17.1",
     "firebase": "^8.8.0",
     "lodash": "^4.17.21",
     "vue": "^3.0.0",

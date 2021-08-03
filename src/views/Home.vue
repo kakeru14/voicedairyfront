@@ -35,7 +35,7 @@ import { defineComponent, ref, computed} from "vue";
 import axios from 'axios'
 import {useStore} from 'vuex'
 
-const baseURL = 'http://voicedairy.herokuapp.com/todos'
+const baseURL = 'http://voicedairy.herokuapp.com'
 
 const store = useStore()
 

@@ -101,7 +101,7 @@ import axios from "axios"
 import {useStore} from 'vuex'
 import {useRoute,useRouter} from 'vue-router'
 
-const baseURL = 'https://localhost/todos'
+const baseURL = 'http://localhost/todos'
 // const deleteURL = 'http://localhost'
 
 export default defineComponent({
@@ -184,7 +184,7 @@ export default defineComponent({
     // const baseURL = 'http://localhost/todos'
 
     const deleteTodo = async(id,data) => {
-      await axios.delete(`https://localhost/todos/${data._id}`).then(response => {
+      await axios.delete(`http://localhost/todos/${data._id}`).then(response => {
         fetchTodo();
         console.log(response);
         console.log(data._id);

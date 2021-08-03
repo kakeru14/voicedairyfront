@@ -101,7 +101,8 @@ import axios from "axios"
 import {useStore} from 'vuex'
 import {useRoute,useRouter} from 'vue-router'
 
-const baseURL = 'https://voicedairy.herokuapp.com'
+const baseURL = 'https://voicedairyfront.herokuapp.com'
+console.log('asasasa');
 // const deleteURL = 'http://localhost'
 
 export default defineComponent({
@@ -111,8 +112,8 @@ export default defineComponent({
 
     // const doneLoading = ref(false)
     const store = useStore();
-    const route = useRoute()
-    const router = useRouter()
+    // const route = useRoute()
+    // const router = useRouter()
 
 
     const state = reactive({

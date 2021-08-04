@@ -101,7 +101,7 @@ import axios from "axios"
 import {useStore} from 'vuex'
 import {useRoute,useRouter} from 'vue-router'
 
-const baseURL = 'https://voicedairy.herokuapp.com'
+const baseURL = 'http://localhost/todos'
 console.log('asasasa');
 // const deleteURL = 'http://localhost'
 

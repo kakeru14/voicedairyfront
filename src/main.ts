@@ -27,8 +27,8 @@ import firebase from 'firebase'
   firebase.analytics();
 
 const http = axios.create({
-    // baseURL: process.env.BACKEND_URL ? process.env.BACKEND_URL : 'http://localhost/voiceDairy',
-    baseURL: process.env.BACKEND_URL ? process.env.BACKEND_URL : 'https://voicedairy.herokuapp.com/',
+    baseURL: process.env.BACKEND_URL ? process.env.BACKEND_URL : 'http://localhost/voiceDairy',
+    // baseURL: process.env.BACKEND_URL ? process.env.BACKEND_URL : 'https://voicedairy.herokuapp.com/',
   });
   
   console.log('MongoDB');
